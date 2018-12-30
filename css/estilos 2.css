@@ -1,0 +1,78 @@
+body{
+	background: #405159;
+}
+#buscador_multipe{
+	padding: 20px 0px;
+	background: #1a1a1a;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+label{
+	color: #fff;
+}
+
+input[type=text],select{
+	background: #2b2b2b;
+	color: #eee;
+	border-radius: 4px;
+	border: 1px solid #eee;
+}
+input[type=submit]{
+	background: #ce8f15;
+	border-radius: 4px;
+	border: 1px solid #eee;
+}
+
+h2{
+	padding: 0px 0px 0px 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.muestra_poblaciones{
+	position: absolute;
+	margin: 18px 0px 0px 552px;
+	border-radius: 3px;
+	z-index: 999999;
+}
+
+.muestra_poblaciones p{
+	text-align:left;
+    font-size: 14px;
+    background-color: #ca5d36;
+    background: #4f7189;
+    background-size: 203px 203px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #eee;
+    max-width: 300px;
+    margin-top: -20px;
+}
+
+.muestra_poblaciones p a{
+    color: #fff;
+    text-decoration: none;
+}
+.resultados{
+	background: #8d867e;
+}           
+
+#head_resultados{
+	text-align: center;
+	background: #f00;
+	color: #fff;
+	margin-left: 0px;
+}
+#body_resultados{
+	background: #1f3a4d;
+	text-align: center;
+	color: #fff;
+	margin-left: 0px;
+	padding: 10px 0px;
+	font-size: 12px;
+}
+#body_resultados div{
+	padding: 5px 0px;
+}
